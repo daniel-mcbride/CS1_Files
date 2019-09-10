@@ -21,9 +21,11 @@ def wordAnalysis(word):
 
     #printStr = ""
 
+    print("There are", consonantCount, "consonants in your word")
+    print("You can find a vowel at index: ", end="")
     for vowelIndex in vowelIndicies:
-        print(vowelIndex)
+        print(vowelIndex, end=" ")
 
-userWord = input("Gimme a word ")
+userWord = input("Gimme a word to analyze: ")
 
 wordAnalysis(userWord)
