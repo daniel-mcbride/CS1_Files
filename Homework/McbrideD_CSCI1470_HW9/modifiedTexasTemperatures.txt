@@ -1,0 +1,19 @@
+City Name    Average Annual Temperature    Record High Temperature    Average/Record High Temp Difference
+Abilene    64.5    110    45.5
+Amarillo    57.2    111    53.8
+Austin    68.4    112    43.6
+Brownsville    73.9    106    32.1
+Corpus Christi    71.9    107    35.1
+Dallas/Ft. Worth    65.9    113    47.1
+Del Rio    70.1    112    41.9
+El Paso    64    114    50.0
+Galveston    70    102    32.0
+Houston    69.6    109    39.4
+Lubbock    60.2    114    53.8
+Midland- Odessa    63.6    116    52.4
+Pt Arthur Beaumont    68.7    107    38.3
+San Angelo    65.4    111    45.6
+San Antonio    69    110    41.0
+Victoria    70.3    109    38.7
+Waco    67.1    112    44.9
+Wichita Falls    64    117    53.0

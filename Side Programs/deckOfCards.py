@@ -10,15 +10,17 @@ class Card:
 
 class Deck:
     
-    def __init__(self):
+    def __init__(self, deckType="standard"):
+
         suits = ["spades", "hearts", "clubs", "diamonds"]
         values = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "jack", "queen", "king", "ace"]
 
         self.cards = []
-        
-        for suit in suits:
-            for value in values:
-                self.cards.append(Card(suit, value))
+
+        if deckType == "standard":
+            for suit in suits:
+                for value in values:
+                    self.cards.append(Card(suit, value))
 
     def inspectDeck(self):
         for card in self.cards:
@@ -36,10 +38,6 @@ class Deck:
 
         self.cards = newDeck
 
-    
-
-def battle():
-
-    deck = Deck()
-
+    def drawCard(self):
+        return self.cards.pop(0)
     
